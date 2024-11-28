@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#60bf5d, #6786c3);
+}
+
+/* This is for HEADER */
+.header .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .row .col-3, .col-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    text-align: center;
+    width: 75%;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.header .btn:hover {
+    background: #fff;
+}
+.header .btn:hover i{
+    color: #1b0202;
+}
+.header .btn i {
+    color: #fff;
+}
+.header {
+    padding: 0.5rem;
+    border-bottom: 0.1rem solid #08f7a3 ;
+}
+
+/* vegatable-container */
+.vegatable-container .card img{
+    width: 70%;
+    margin: auto;
+}
+.vegatable-container {
+    border-radius: 1rem;
+    border: 0.1rem solid #08f7a3;
+    margin: 1rem;
+}
